@@ -53,8 +53,8 @@ while (0 < opt <= 10):
                 num3 = math.sqrt(num1)
                 print("Результат:", num3)
         case 7:
-            num1 = float(input("Введите число: "))
-            if num1 < 0:
+            num1 = int(input("Введите число: "))
+            if num1 < 0 or num1 == float:
                 print("Ошибка!")
             else:
                 num3 = math.factorial(num1)
